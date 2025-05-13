@@ -1,3 +1,10 @@
 from django.shortcuts import render
+from rest_framework import generics
+from .models import House
+from .serializers import HouseSerializer
+from rest_framework import viewsets
 
-# TODO: Create your views here.
+
+class HouseViewSet(viewsets.ModelViewSet):
+    queryset = House.objects.all()
+    serializer_class = HouseSerializer

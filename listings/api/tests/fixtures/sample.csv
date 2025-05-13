@@ -1,0 +1,2 @@
+area_unit,bathrooms,bedrooms,home_size,home_type,last_sold_date,last_sold_price,link,price,property_size,rent_price,rentzestimate_amount,rentzestimate_last_updated,tax_value,tax_year,year_built,zestimate_amount,zestimate_last_updated,zillow_id,address,city,state,zipcode
+SqFt,2.0,3,1200,SingleFamily,01/01/2020,500000,https://example.com,500K,6000,,2500,2024-01-01,150000,2022,1980,520000,2024-01-01,99999999,123 Fake St,Springfield,CA,90001
